@@ -28,9 +28,9 @@ public class GestoreTag {
             }
             leggi.close();
         } catch (FileNotFoundException e) {
-            Dialog<String> dialog = new Dialog<>();
+            /*Dialog<String> dialog = new Dialog<>();
             dialog.setTitle("Errore");
-            dialog.setContentText("Errore nella lettura delle TAG");
+            dialog.setContentText("Errore nella lettura delle TAG");*/
         } catch (IOException e) {
             Dialog<String> dialog = new Dialog<>();
             dialog.setTitle("Errore");
